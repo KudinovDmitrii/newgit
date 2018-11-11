@@ -76,7 +76,7 @@ int main()
 	for (int i = 0; i < a; i++) {
 		for (int j = 0; j < b; j++) {
 			if (A[i][j] == -1) {
-				cout << "* ";
+				cout << "* ";  //our mines will be * instead -1
 			}
 			else {
 				cout << A[i][j] << " ";
