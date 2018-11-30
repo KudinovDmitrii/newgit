@@ -1,10 +1,10 @@
-﻿
+﻿/* Count of 2 in ternary system */
 
 #include <iostream>
 using namespace std;
 int TROICH(int a) {
 	int b, sum = 0;
-	for (;a > 3; a /= 3) {
+	for (;a > 3; a /= 3) {       //Find count of 2
 		b = a % 3;
 		if (b == 2) {
 			sum += b;
@@ -24,7 +24,7 @@ int main()
 	for (int i = 0; i < n; i++) {
 		cin >> A[i];
 	}
-	for (int i = 0; i < n; i++) {
+	for (int i = 0; i < n; i++) {     // It works O(n * (kolichestvo chisel v chisle) )
 		g = TROICH(A[i]);
 		if (g <= k) {
 			cout << A[i] << " ";
