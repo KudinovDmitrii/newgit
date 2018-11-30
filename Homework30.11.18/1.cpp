@@ -1,4 +1,4 @@
-
+/* Find all X and Y */
 #include <iostream>
 using namespace std;
 int main()
