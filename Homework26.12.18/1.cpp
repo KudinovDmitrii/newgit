@@ -1,3 +1,4 @@
+// K poradkovaa statistika
 #include <iostream>
 using namespace std;
 int POISON(int *A, int l, int r) {
