@@ -25,8 +25,9 @@ public:
 
 	double_vector(const double_vector& A) {
 		size = A.size;
-		capacity = A.capacity;
-		data = A.data;
+		data = new double[size];
+		for(int i = 0; i < size; i++)
+	        dta[i] = A.data[i];  
 	}
 
 	const double_vector& operator=(const double_vector& A) {
